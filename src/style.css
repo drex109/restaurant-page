@@ -2,6 +2,8 @@ body{
     background-color: rgb(155, 155, 155);
     display: grid;
     place-content: center;
+    max-width: 50rem;
+    margin: auto;
 }
 nav{
     display: grid;
@@ -17,4 +19,13 @@ nav button{
 nav button:hover{
     color:white;
     cursor: pointer;
+}
+#head{
+    text-align: center;
+}
+#head p{
+    font-size: 18px;
+}
+#sweetrolls{
+    max-width: 50rem;
 }
